@@ -3,11 +3,11 @@ import thunk from 'redux-thunk';
 import { DataReducer, DataState } from './reducer';
 
 export interface AppState {
-    dataState: DataState;
+    vitae: DataState;
 }
 
 const rootReducer = combineReducers<AppState>({
-    dataState: DataReducer,
+    vitae: DataReducer,
 });
 
 export default function configureStore(): Store<AppState, any> {

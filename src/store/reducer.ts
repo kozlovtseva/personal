@@ -1,13 +1,21 @@
 import { Reducer } from 'redux';
 import { DataActions, DataActionTypes } from './actions';
 
+interface Items {
+    [index: string]: string;
+}
+
 interface Item {
-    age: string;
-    amount: number;
+    [index: string]: string;
 }
 
 export interface DataArray {
-    [index: string]: Item[];
+    experience: Items[];
+    capabilities: string[];
+    about: string;
+    university: Item;
+    languages: Items[];
+    courses: Items[];
 }
 
 export interface DataState {
@@ -15,7 +23,14 @@ export interface DataState {
 }
 
 const initialState: DataState = {
-    data: {},
+    data: {
+        experience: [],
+        capabilities: [],
+        about: '',
+        university: {},
+        languages: [],
+        courses: [],
+    },
 };
 
 // eslint-disable-next-line import/prefer-default-export
