@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from './NavBar';
+import styles from './Header.module.scss';
 
 const Header: React.FC<{}> = () => {
     const navbar = [
@@ -23,6 +24,9 @@ const Header: React.FC<{}> = () => {
 
     return (
         <div>
+            <div className={styles.Background}>
+                <p>//coding mum</p>
+            </div>
             <NavBar items={navbar} />
         </div>
     );

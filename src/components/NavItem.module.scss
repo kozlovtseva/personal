@@ -1,0 +1,20 @@
+.Item {
+    border-radius: 7px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    height: 76px;
+    line-height: 76px;
+    text-align: center;
+    width: 318.75px;
+    transition: background 0.5s ease;
+    &:hover {
+        background: rgba(165, 212, 212, 0.2);
+    }
+}
+.ItemActive {
+    background: rgba(165, 212, 212, 0.5);
+    &:hover {
+        background: rgba(165, 212, 212, 0.5);
+    }
+}

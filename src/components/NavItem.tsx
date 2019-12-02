@@ -2,13 +2,20 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { NavItemInt } from '../interfaces/NavItem';
 
+import styles from './NavItem.module.scss';
+
 interface Props {
     item: NavItemInt;
 }
 
-const NavItem = ({ item }: Props) => {
+const NavItem = ({ item }: Props, key: string) => {
+    console.log(item);
     return (
-        <NavLink to={item.href} className="non_active" activeClassName="active">
+        <NavLink
+            to={item.href}
+            className={styles.Item}
+            activeClassName={styles.ItemActive}
+        >
             {item.title}
         </NavLink>
     );

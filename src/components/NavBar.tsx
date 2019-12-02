@@ -1,6 +1,7 @@
 import React from 'react';
 import NavItem from './NavItem';
 import { NavItemInt } from '../interfaces/NavItem';
+import styles from './NavBar.module.scss';
 
 interface Props {
     items: NavItemInt[];
@@ -8,14 +9,14 @@ interface Props {
 
 const NavBar = ({ items }: Props) => {
     return (
-        <div>
+        <div className={styles.NavBar}>
             {items.map(item => (
                 <NavItem
                     item={{
                         title: item.title,
                         href: item.href,
-                        key: item.title,
                     }}
+                    key={item.title}
                 />
             ))}
         </div>
