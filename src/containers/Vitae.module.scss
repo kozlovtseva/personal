@@ -1,0 +1,21 @@
+.Person {
+    position: relative;
+    width: 485px;
+}
+.Back {
+    align-items: flex-end;
+    background-color: #f1f2ed;
+    display: flex;
+    height: 564px;
+    justify-content: center;
+    padding-bottom: 23px;
+    width: 366px;
+}
+.Text {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 48px;
+    left: 202px;
+    letter-spacing: 0.05em;
+    position: absolute;
+    top: 67px;
+}

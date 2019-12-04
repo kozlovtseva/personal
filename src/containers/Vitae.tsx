@@ -4,6 +4,8 @@ import { connect } from 'react-redux';
 import { AppState } from '../store/store';
 import { DataArray } from '../store/reducer';
 
+import styles from './Vitae.module.scss';
+
 interface Props {
     data: DataArray;
 }
@@ -17,7 +19,21 @@ class Vitae extends React.Component<Props> {
     // };
     render() {
         console.log(this.props.data);
-        return <div>Резюме</div>;
+        return (
+            <div>
+                <div className={styles.Person}>
+                    <p className={styles.Text}>Frontend developer</p>
+                    <div className={styles.Back}>
+                        <img
+                            src={require('../images/photo.png')}
+                            className={styles.Photo}
+                            alt="a.kozlovtseva"
+                        />
+                    </div>
+                </div>
+                <div className={styles.Skills}></div>
+            </div>
+        );
     }
 }
 

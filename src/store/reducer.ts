@@ -11,7 +11,7 @@ interface Item {
 
 export interface DataArray {
     experience: Items[];
-    capabilities: string[];
+    skills: string[];
     about: string;
     university: Item;
     languages: Items[];
@@ -25,7 +25,7 @@ export interface DataState {
 const initialState: DataState = {
     data: {
         experience: [],
-        capabilities: [],
+        skills: [],
         about: '',
         university: {},
         languages: [],
