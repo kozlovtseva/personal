@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import { AppState } from '../store/store';
 import { DataArray } from '../store/reducer';
 
+import SkillsItem from '../components/SkillsItem';
 import styles from './Vitae.module.scss';
 
 interface Props {
@@ -31,7 +32,11 @@ class Vitae extends React.Component<Props> {
                         />
                     </div>
                 </div>
-                <div className={styles.Skills}></div>
+                <div className={styles.Skills}>
+                    {this.props.data.skills.map((item, i) => (
+                        <SkillsItem key={i} value={item} />
+                    ))}
+                </div>
             </div>
         );
     }

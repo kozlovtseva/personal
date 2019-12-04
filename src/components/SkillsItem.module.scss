@@ -1,0 +1,11 @@
+@import '../variables.scss';
+
+.Item {
+    @include eng-text;
+    align-items: center;
+    border: 1px solid $secondary-color;
+    display: flex;
+    justify-content: center;
+    width: 189.59px;
+    height: 78px;
+}
