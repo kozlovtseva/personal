@@ -5,17 +5,21 @@ interface Items {
     [index: string]: string;
 }
 
-interface Item {
-    [index: string]: string;
+export interface educationItem {
+    type: string;
+    date: string;
+    name: string;
+    details: string;
+    probation: boolean;
+    logo: string;
 }
 
 export interface DataArray {
     experience: Items[];
     skills: string[];
     about: string;
-    university: Item;
     languages: Items[];
-    courses: Items[];
+    education: educationItem[];
 }
 
 export interface DataState {
@@ -27,9 +31,8 @@ const initialState: DataState = {
         experience: [],
         skills: [],
         about: '',
-        university: {},
         languages: [],
-        courses: [],
+        education: [],
     },
 };
 

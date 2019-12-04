@@ -41,12 +41,6 @@
         "Scrum"
     ],
     "about": "закончила курс профессиональной подготовки по программе Frontend-разработчик - высшие оценочные баллы на всех этапах + стажировка от компании GeekBrains; в дополнение получила специальность Fullstack разработки (Bootstrap, React, ReactNative, NodeJS, Express, MongoDB) - все курсы закончила с отличием",
-    "university": {
-        "date": "2011",
-        "name": "РГГУ (Российский Государственный Гуманитарный Университет",
-        "faculty": "лингвистики",
-        "speciality": "Теоретическая и прикладная лингвистика"
-    },
     "languages": [
         {
             "language": "Русский",
@@ -61,16 +55,38 @@
             "level": "A1 — Начальный"
         }
     ],
-    "courses": [
+    "education": [
         {
+            "type": "специализация",
             "date": "2019",
-            "organization": "Гонконгский университет науки и технологий (Coursera Inc.)",
-            "course": "Full-Stack Web Development with React"
+            "name": "Coursera Inc.(Гонконгский университет науки и технологий)",
+            "details": [
+                "Full-Stack Web Development with React(Bootstrap, React, ReactNative, NodeJS, Express, MongoDB)"
+            ],
+            "probation": false,
+            "logo": "coursera.png"
         },
         {
+            "type": "высшее образование",
+            "date": "2011",
+            "name": "РГГУ",
+            "details": [
+                "факультет лингвистики",
+                "специальность: Теоретическая и прикладная лингвистика",
+                "специализация: Языки и коммуникации"
+            ],
+            "probation": false,
+            "logo": "RGGU.png"
+        },
+        {
+            "type": "курс профподготовки",
             "date": "2018",
-            "organization": "Учебный центр Geekbrains",
-            "course": "курс профессионального обучения по программе Frontend-разработчик"
+            "name": "Учебный центр Geekbrains",
+            "details": [
+                "курс профессионального обучения по программе Frontend-разработчик"
+            ],
+            "probation": true,
+            "logo": "GB.png"
         }
     ]
 }

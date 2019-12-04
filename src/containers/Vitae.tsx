@@ -5,6 +5,7 @@ import { AppState } from '../store/store';
 import { DataArray } from '../store/reducer';
 
 import SkillsItem from '../components/SkillsItem';
+import Education from '../components/Education';
 import styles from './Vitae.module.scss';
 
 interface Props {
@@ -35,6 +36,11 @@ class Vitae extends React.Component<Props> {
                 <div className={styles.Skills}>
                     {this.props.data.skills.map((item, i) => (
                         <SkillsItem key={i} value={item} />
+                    ))}
+                </div>
+                <div className={styles.Education}>
+                    {this.props.data.education.map((item, i) => (
+                        <Education key={i} item={item} />
                     ))}
                 </div>
             </div>
