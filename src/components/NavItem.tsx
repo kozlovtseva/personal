@@ -9,7 +9,6 @@ interface Props {
 }
 
 const NavItem = ({ item }: Props, key: string) => {
-    console.log(item);
     return (
         <NavLink
             to={item.href}

@@ -1,20 +1,20 @@
+@import '../variables.scss';
+
 .Item {
+    @include rus-title;
     border-radius: 7px;
-    color: #000;
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
     height: 76px;
     line-height: 76px;
     text-align: center;
     width: 318.75px;
     transition: background 0.5s ease;
     &:hover {
-        background: rgba(165, 212, 212, 0.2);
+        background: $primary-transparent-color;
     }
 }
 .ItemActive {
-    background: rgba(165, 212, 212, 0.5);
+    background: $primary-color;
     &:hover {
-        background: rgba(165, 212, 212, 0.5);
+        background: $primary-color;
     }
 }

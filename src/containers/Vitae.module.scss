@@ -1,3 +1,5 @@
+@import '../variables.scss';
+
 .Person {
     position: relative;
     width: 485px;
@@ -12,10 +14,18 @@
     width: 366px;
 }
 .Text {
-    font-family: 'Cutive Mono', monospace;
-    font-size: 48px;
+    @include eng-title;
     left: 202px;
-    letter-spacing: 0.05em;
     position: absolute;
     top: 67px;
+}
+.Skills {
+    align-items: center;
+    background-color: $primary-color;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 564px;
+    padding: 30px;
+    width: 786px;
 }

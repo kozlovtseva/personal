@@ -1,0 +1,25 @@
+$base-color: #b7e0df;
+$primary-color: rgba($base-color, 0.5);
+$primary-transparent-color: rgba($base-color, 0.2);
+$secondary-color: #faefc4;
+
+@mixin eng {
+    font-family: 'Cutive Mono', monospace;
+    letter-spacing: 0.05em;
+}
+
+@mixin eng-title {
+    @include eng;
+    font-size: 48px;
+}
+
+@mixin eng-text {
+    @include eng;
+    font-size: 24px;
+}
+
+@mixin rus-title {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
