@@ -23,7 +23,7 @@ const Header: React.FC<{}> = () => {
     ];
 
     return (
-        <div>
+        <div className={styles.Container}>
             <div className={styles.Background}>
                 <p>//coding mum</p>
             </div>

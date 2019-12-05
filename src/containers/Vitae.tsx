@@ -22,7 +22,7 @@ class Vitae extends React.Component<Props> {
     render() {
         console.log(this.props.data);
         return (
-            <div>
+            <div className={styles.Container}>
                 <div className={styles.Person}>
                     <p className={styles.Text}>Frontend developer</p>
                     <div className={styles.Back}>

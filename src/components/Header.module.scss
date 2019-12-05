@@ -1,5 +1,9 @@
 @import '../variables.scss';
 
+.Container {
+    margin: 40px 40px 0 40px;
+}
+
 .Background {
     @include eng-title;
     align-items: flex-end;
