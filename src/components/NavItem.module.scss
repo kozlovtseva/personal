@@ -1,7 +1,7 @@
 @import '../variables.scss';
 
 .Item {
-    @include rus-title;
+    @include rus-text;
     border-radius: 7px;
     height: 76px;
     line-height: 76px;

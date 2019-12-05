@@ -9,7 +9,7 @@ export interface educationItem {
     type: string;
     date: string;
     name: string;
-    details: string;
+    details: string[];
     probation: boolean;
     logo: string;
 }

@@ -2,6 +2,7 @@ $base-color: #b7e0df;
 $primary-color: rgba($base-color, 0.5);
 $primary-transparent-color: rgba($base-color, 0.2);
 $secondary-color: #faefc4;
+$third-color: #f1f2ed;
 
 @mixin eng {
     font-family: 'Cutive Mono', monospace;
@@ -18,8 +19,13 @@ $secondary-color: #faefc4;
     font-size: 24px;
 }
 
-@mixin rus-title {
+@mixin rus {
     color: #000;
     font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.05em;
+}
+
+@mixin rus-text {
+    @include rus;
     font-size: 24px;
 }

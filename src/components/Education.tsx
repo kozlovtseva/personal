@@ -9,6 +9,7 @@ interface Props {
 }
 
 const Education = ({ item }: Props, key: number) => {
+    console.log(item.details);
     return (
         <div className={styles.Block}>
             <div className={styles.Logo}>
@@ -20,7 +21,15 @@ const Education = ({ item }: Props, key: number) => {
             </div>
             <div className={styles.Type}>{item.type}</div>
             <div className={styles.Name}>{`${item.name}, ${item.date}`}</div>
-            <div className={styles.Details}>{item.details}</div>
+            <div className={styles.Details}>
+                {item.details.map((item: string, index: number) => {
+                    return (
+                        <div className={styles.Detail} key={index}>
+                            {item}
+                        </div>
+                    );
+                })}
+            </div>
             {item.probation ? (
                 <div>
                     <div>+</div>
