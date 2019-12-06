@@ -23,20 +23,20 @@ class Vitae extends React.Component<Props> {
         console.log(this.props.data);
         return (
             <div className={styles.Container}>
-                <div className={styles.Person}>
-                    <p className={styles.Text}>Frontend developer</p>
-                    <div className={styles.Back}>
+                <div className={styles.Section}>
+                    <div className={styles.Developer}>
                         <img
                             src={require('../images/photo.png')}
                             className={styles.Photo}
                             alt="a.kozlovtseva"
                         />
+                        <p className={styles.Text}>Frontend developer</p>
                     </div>
-                </div>
-                <div className={styles.Skills}>
-                    {this.props.data.skills.map((item, i) => (
-                        <SkillsItem key={i} value={item} />
-                    ))}
+                    <div className={styles.Skills}>
+                        {this.props.data.skills.map((item, i) => (
+                            <SkillsItem key={i} value={item} />
+                        ))}
+                    </div>
                 </div>
                 <div className={styles.Education}>
                     {this.props.data.education.map((item, i) => (

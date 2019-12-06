@@ -5,8 +5,11 @@
     align-items: center;
     background-color: $primary-color;
     display: flex;
-    height: 106px;
-    padding-left: 30px;
+    flex-wrap: wrap;
+    min-height: 266px;
+    margin-top: 250px;
+    padding-left: 70px;
+    flex-wrap: wrap;
 }
 .ButtonBlock {
     height: 106px;
