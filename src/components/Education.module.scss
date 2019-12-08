@@ -4,16 +4,26 @@
     @include rus-text;
     text-align: center;
     width: 373px;
+    @media (max-width: 380px) {
+        width: 300px;
+    }
 }
 .Logo {
     border: 3px solid $secondary-color;
     height: 388px;
     margin-bottom: 15px;
     width: 373px;
+    @media (max-width: 380px) {
+        width: 300px;
+    }
 }
 .Image {
     height: 382px;
     width: 367px;
+    @media (max-width: 380px) {
+        height: 320px;
+        width: 300px;
+    }
 }
 .Type {
     background-color: $primary-transparent-color;
@@ -21,6 +31,9 @@
     line-height: 60px;
     text-align: center;
     width: 373px;
+    @media (max-width: 380px) {
+        width: 300px;
+    }
 }
 .Name {
     margin: 20px 0 30px 0;
