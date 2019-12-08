@@ -1,6 +1,6 @@
 import React from 'react';
 import NavItem from './NavItem';
-import { NavItemInt } from '../interfaces/NavItem';
+import { NavItemInt } from '../../interfaces/NavItem';
 import styles from './NavBar.module.scss';
 
 interface Props {

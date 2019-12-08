@@ -1,4 +1,4 @@
-@import '../variables.scss';
+@import '../../variables.scss';
 
 .Container {
     margin: 40px 40px 0 40px;
@@ -11,7 +11,7 @@
     @include eng-title;
     align-items: flex-end;
     background-size: cover;
-    background-image: url(../images/back.jpg);
+    background-image: url(../../images/back.jpg);
     display: flex;
     height: 362px;
     justify-content: flex-end;

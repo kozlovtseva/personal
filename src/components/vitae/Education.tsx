@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { educationItem } from '../store/reducer';
+import { educationItem } from '../../store/reducer';
 
 import styles from './Education.module.scss';
 
@@ -15,7 +15,7 @@ const Education = ({ item }: Props, key: number) => {
             <div className={styles.Logo}>
                 <img
                     className={styles.Image}
-                    src={require(`../images/${item.logo}`)}
+                    src={require(`../../images/${item.logo}`)}
                     alt="education"
                 />
             </div>

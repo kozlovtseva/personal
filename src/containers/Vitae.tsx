@@ -4,8 +4,8 @@ import { connect } from 'react-redux';
 import { AppState } from '../store/store';
 import { DataArray } from '../store/reducer';
 
-import SkillsItem from '../components/SkillsItem';
-import Education from '../components/Education';
+import SkillsItem from '../components/vitae/SkillsItem';
+import Education from '../components/vitae/Education';
 import styles from './Vitae.module.scss';
 
 interface Props {
