@@ -1,0 +1,42 @@
+@import '../../variables.scss';
+
+.Container {
+    margin: 40px 40px 0 40px;
+    @media (max-width: 575.98px) {
+        margin: 0;
+    }
+}
+
+.Background {
+    @include eng-title;
+    align-items: flex-end;
+    background-size: cover;
+    background-image: url(../../images/back.jpg);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 362px;
+    justify-content: flex-end;
+    margin-bottom: 26px;
+    padding: 35px;
+    @media (max-width: 767.98px) {
+        align-items: flex-start;
+    }
+}
+
+.Burger {
+    background-image: repeating-linear-gradient(
+        #000,
+        #000 4px,
+        transparent 4px,
+        transparent 20px
+    );
+    cursor: pointer;
+    display: none;
+    height: 57px;
+    margin-bottom: 170px;
+    width: 45px;
+    @media (max-width: 767.98px) {
+        display: block;
+    }
+}

@@ -20,7 +20,6 @@ class Vitae extends React.Component<Props> {
 
     // };
     render() {
-        console.log(this.props.data);
         return (
             <div className={styles.Container}>
                 <div className={styles.Section}>

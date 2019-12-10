@@ -1,17 +1,19 @@
 import React from 'react';
-import NavItem from './NavItem';
+import MobNavItem from './MobNavItem';
 import { NavItemInt } from '../../interfaces/NavItem';
-import styles from './NavBar.module.scss';
+import styles from './MobNavBar.module.scss';
 
 interface Props {
     items: NavItemInt[];
+    closeNav: () => void;
 }
 
-const NavBar = ({ items }: Props) => {
+const NavBar: React.FC<Props> = props => {
     return (
-        <div className={styles.NavBar}>
-            {items.map(item => (
-                <NavItem
+        <div className={styles.Container}>
+            <div className={styles.Cancel} onClick={props.closeNav} />
+            {props.items.map(item => (
+                <MobNavItem
                     item={{
                         title: item.title,
                         href: item.href,

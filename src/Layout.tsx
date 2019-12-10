@@ -1,14 +1,14 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
-import Header from './components/header/Header';
+import Header from './containers/header/Header';
 import Footer from './components/footer/Footer';
 import Vitae from './containers/Vitae';
 import Portfolio from './containers/Portfolio';
 import Certificates from './containers/Certificates';
 import Contacts from './components/Contacts';
 
-const Layout: React.FC<{}> = () => {
+const Layout: React.FC = () => {
     return (
         <>
             <Header />
