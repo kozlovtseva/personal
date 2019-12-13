@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import { connect } from 'react-redux';
 import { AppState } from '../store/store';
-import { DataArray } from '../store/reducer';
+import { DataArray } from '../store/reducers/dataReducer';
 
 import SkillsItem from '../components/vitae/SkillsItem';
 import Education from '../components/vitae/Education';

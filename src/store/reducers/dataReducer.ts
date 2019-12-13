@@ -1,5 +1,5 @@
 import { Reducer } from 'redux';
-import { DataActions, DataActionTypes } from './actions';
+import { DataActions, ActionTypes } from '../actions';
 
 interface Items {
     [index: string]: string;
@@ -42,7 +42,7 @@ export const DataReducer: Reducer<DataState, DataActions> = (
     action,
 ) => {
     switch (action.type) {
-        case DataActionTypes.GET_DATA: {
+        case ActionTypes.GET_DATA: {
             return {
                 ...state,
                 data: action.data,

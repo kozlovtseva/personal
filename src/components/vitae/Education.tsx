@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { educationItem } from '../../store/reducer';
+import { educationItem } from '../../store/reducers/dataReducer';
 
 import styles from './Education.module.scss';
 
@@ -9,7 +9,6 @@ interface Props {
 }
 
 const Education = ({ item }: Props, key: number) => {
-    console.log(item.details);
     return (
         <div className={styles.Block}>
             <div className={styles.Logo}>
