@@ -5,7 +5,9 @@ import { GetPortfolio } from '../store/actions';
 import { AppState } from '../store/store';
 import { PortfolioArray } from '../store/reducers/portfolioReducer';
 
-// import styles from './Portfolio.module.scss';
+import PortfolioItem from '../components/portfolio/PortfolioItem';
+
+import styles from './Portfolio.module.scss';
 
 interface PropsFromState {
     data: PortfolioArray;
@@ -26,8 +28,14 @@ class Portfolio extends React.Component<AllProps> {
     }
 
     render() {
-        console.log(this.props);
-        return <div>Portfolio</div>;
+        console.log(this.props.data);
+        return (
+            <div className={styles.Projects}>
+                {this.props.data.projects.map((item, i) => (
+                    <PortfolioItem key={i} item={item} />
+                ))}
+            </div>
+        );
     }
 }
 

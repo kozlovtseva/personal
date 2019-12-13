@@ -1,5 +1,5 @@
 import { DataArray } from './reducers/dataReducer';
-import { PortfolioArray } from './reducers/PortfolioReducer';
+import { PortfolioArray } from './reducers/portfolioReducer';
 import DATA from './data.json';
 
 export enum ActionTypes {

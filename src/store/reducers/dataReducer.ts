@@ -1,10 +1,6 @@
 import { Reducer } from 'redux';
 import { DataActions, ActionTypes } from '../actions';
 
-interface Items {
-    [index: string]: string;
-}
-
 export interface educationItem {
     type: string;
     date: string;
@@ -15,10 +11,7 @@ export interface educationItem {
 }
 
 export interface DataArray {
-    experience: Items[];
     skills: string[];
-    about: string;
-    languages: Items[];
     education: educationItem[];
 }
 
@@ -28,10 +21,7 @@ export interface DataState {
 
 const initialState: DataState = {
     data: {
-        experience: [],
         skills: [],
-        about: '',
-        languages: [],
         education: [],
     },
 };

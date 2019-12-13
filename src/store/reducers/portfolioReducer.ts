@@ -1,9 +1,14 @@
 import { Reducer } from 'redux';
 import { ActionTypes, PortfolioActions } from '../actions';
 
-export interface PortfolioArray {
+export interface Item {
     title: string;
+    image: string;
     text: string[];
+}
+
+export interface PortfolioArray {
+    projects: Item[];
 }
 
 export interface PortfolioState {
@@ -12,8 +17,7 @@ export interface PortfolioState {
 
 const initialState: PortfolioState = {
     data: {
-        title: '',
-        text: [],
+        projects: [],
     },
 };
 
