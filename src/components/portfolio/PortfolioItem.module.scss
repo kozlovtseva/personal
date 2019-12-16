@@ -17,6 +17,25 @@
     padding: 60px;
     position: relative;
 }
+.Title {
+    margin-bottom: 30px;
+    @include rus-title;
+}
+.Details {
+    @include rus-text;
+}
+.Text {
+    line-height: 36px;
+    margin-bottom: 30px;
+}
+.Button {
+    display: flex;
+    justify-content: center;
+    @media (max-width: 575.98px) {
+        display: block;
+    }
+}
+
 .Decoration {
     height: 100%;
     left: 50%;
@@ -31,15 +50,4 @@
         border: 5px solid $secondary-color;
         border-left: 0;
     }
-}
-.Title {
-    margin-bottom: 30px;
-    @include rus-title;
-}
-.Details {
-    @include rus-text;
-}
-.Text {
-    line-height: 36px;
-    margin-bottom: 30px;
 }

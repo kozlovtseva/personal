@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Item } from '../../store/reducers/portfolioReducer';
+import Button from '../UI/Button';
 
 import styles from './PortfolioItem.module.scss';
 
@@ -29,6 +30,14 @@ const PortfolioItem = (props: Props) => {
                         );
                     })}
                 </div>
+                <div className={styles.Button}>
+                    <Button
+                        classesNames="Button Button_Blue"
+                        href={props.item.href}
+                        text="посомотреть"
+                    />
+                </div>
+
                 <div
                     className={
                         props.color % 2 === 0

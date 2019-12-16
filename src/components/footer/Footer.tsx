@@ -1,21 +1,17 @@
 import React from 'react';
 
+import Button from '../UI/Button';
 import styles from './Footer.module.scss';
 
 const Footer: React.FC<{}> = () => {
     return (
         <div className={styles.Container}>
             <p>Задизайнено собственными ручками в Figma</p>
-            <div className={styles.ButtonBlock}>
-                <a
-                    href="https://www.figma.com/"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className={styles.Button}
-                >
-                    посмотреть
-                </a>
-            </div>
+            <Button
+                classesNames="Button Button_Yellow"
+                href="https://www.figma.com/"
+                text="посомотреть"
+            />
         </div>
     );
 };

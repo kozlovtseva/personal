@@ -4,6 +4,7 @@ import { ActionTypes, PortfolioActions } from '../actions';
 export interface Item {
     title: string;
     image: string;
+    href: string;
     text: string[];
 }
 
