@@ -1,0 +1,45 @@
+@import '../../variables.scss';
+
+.Container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-bottom: 130px;
+}
+.Image {
+    @media (max-width: 575.98px) {
+        height: auto;
+        width: 100%;
+    }
+}
+.Info {
+    max-width: 800px;
+    padding: 60px;
+    position: relative;
+}
+.Decoration {
+    height: 100%;
+    left: 50%;
+    top: 0;
+    position: absolute;
+    width: 50%;
+    &_Blue {
+        border: 5px solid $primary-color;
+        border-left: 0;
+    }
+    &_Yellow {
+        border: 5px solid $secondary-color;
+        border-left: 0;
+    }
+}
+.Title {
+    margin-bottom: 30px;
+    @include rus-title;
+}
+.Details {
+    @include rus-text;
+}
+.Text {
+    line-height: 36px;
+    margin-bottom: 30px;
+}

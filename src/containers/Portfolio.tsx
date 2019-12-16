@@ -28,11 +28,14 @@ class Portfolio extends React.Component<AllProps> {
     }
 
     render() {
-        console.log(this.props.data);
         return (
             <div className={styles.Projects}>
                 {this.props.data.projects.map((item, i) => (
-                    <PortfolioItem key={i} item={item} />
+                    <PortfolioItem
+                        key={i}
+                        item={item}
+                        color={this.props.data.projects.indexOf(item)}
+                    />
                 ))}
             </div>
         );

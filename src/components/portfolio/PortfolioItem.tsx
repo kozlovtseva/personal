@@ -6,25 +6,36 @@ import styles from './PortfolioItem.module.scss';
 
 interface Props {
     item: Item;
+    color: number;
+    key: number;
 }
 
-const PortfolioItem = ({ item }: Props, key: number) => {
+const PortfolioItem = (props: Props) => {
     return (
         <div className={styles.Container}>
             <img
                 className={styles.Image}
-                src={require(`../../images/${item.image}`)}
-                alt={item.title}
+                src={require(`../../images/${props.item.image}`)}
+                alt={props.item.title}
             />
-            <div className={styles.title}>{item.title}</div>
-            <div className={styles.Details}>
-                {item.text.map((item: string, index: number) => {
-                    return (
-                        <div className={styles.Text} key={index}>
-                            {item}
-                        </div>
-                    );
-                })}
+            <div className={styles.Info}>
+                <div className={styles.Title}>{props.item.title}</div>
+                <div className={styles.Details}>
+                    {props.item.text.map((item: string, index: number) => {
+                        return (
+                            <div className={styles.Text} key={index}>
+                                {item}
+                            </div>
+                        );
+                    })}
+                </div>
+                <div
+                    className={
+                        props.color % 2 === 0
+                            ? styles.Decoration + ' ' + styles.Decoration_Yellow
+                            : styles.Decoration + ' ' + styles.Decoration_Blue
+                    }
+                />
             </div>
         </div>
     );

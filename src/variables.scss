@@ -26,6 +26,12 @@ $third-color: #f1f2ed;
     letter-spacing: 0.05em;
 }
 
+@mixin rus-title {
+    @include rus;
+    font-size: 36px;
+    font-weight: 300;
+}
+
 @mixin rus-text {
     @include rus;
     font-size: 24px;
