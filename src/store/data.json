@@ -59,12 +59,12 @@
                 "image": "farm.png",
                 "href": "https://kozlovtseva.github.io/farm/",
                 "text": [
-                    "Создан с помощью Bootstrap4, препроцессора SASS(SCSS), адаптивный.",
-                    "Используются классы по БЭМ-методологии, секционные семантические HTML5-элементы, анимация.",
-                    "Добавлены мультимедиа (<video>, <audio>), визуальные эффекты (параллакс, карусель), динамические изменения контента.",
-                    "Компоновка элементов с помощью технологии Flexbox.",
-                    "Собран с помощью Gulp.",
-                    "Выложен на GitHub Pages."
+                    "Создан с помощью Bootstrap4, препроцессора SASS(SCSS), адаптивный",
+                    "Используются классы по БЭМ-методологии, секционные семантические HTML5-элементы, анимация",
+                    "Добавлены мультимедиа (<video>, <audio>), визуальные эффекты (параллакс, карусель), динамические изменения контента",
+                    "Компоновка элементов с помощью технологии Flexbox",
+                    "Собран с помощью Gulp",
+                    "Выложен на GitHub Pages"
                 ]
             },
             {
@@ -72,13 +72,394 @@
                 "image": "messenger.png",
                 "href": "https://github.com/kozlovtseva/pocket-js-web/tree/develop",
                 "text": [
-                    "Разработка мессенджера для образовательного портала.",
+                    "Разработка мессенджера для образовательного портала",
                     "В основе обмена сообщениями - socket.io",
                     "Взаимодействие с бэкендом через REST API",
-                    "Десктопное приложение на React JS + Redux.",
-                    "Стилизация с помощью CSS-модулей.",
-                    "Для маршрутизации - React Router.",
-                    "Для HTTP-запросов - Axios."
+                    "Десктопное приложение на React JS + Redux",
+                    "Стилизация с помощью CSS-модулей",
+                    "Для маршрутизации - React Router",
+                    "Для HTTP-запросов - Axios"
+                ]
+            }
+        ]
+    },
+    "certificates": {
+        "online": [
+            {
+                "title": "Coursera Inc. (Гонконгский университет науки и технологий)",
+                "subtitle": "сертификаты по курсам специализации Full-Stack Web Development with React",
+                "image": "coursera.png",
+                "items": [
+                    {
+                        "id": "C23KKBT2B3MC",
+                        "image": "FullStack.png",
+                        "title": "Темы курса",
+                        "info": [
+                            "Front-end and hybrid mobile development, with server-side support, for implementing a multi-platform solution",
+                            "The first two courses in this Specialization cover front-end frameworks: Bootstrap 4 and React. Creating hybrid mobile applications, using React Native. Implementing NoSQL databases using MongoDB, working within a Node.js environment and Express framework, and communicating to the client side through a RESTful API"
+                        ],
+                        "href": "https://www.coursera.org/account/accomplishments/specialization/certificate/C23KKBT2B3MC"
+                    },
+                    {
+                        "id": "KXTZK3R876CX",
+                        "image": "Bootstrap.png",
+                        "title": "Темы курса",
+                        "info": [
+                            "Client-side web UI frameworks, in particular Bootstrap 4",
+                            "Grids and responsive design",
+                            "Bootstrap CSS and JavaScript components",
+                            "CSS preprocessors, Less and Sass",
+                            "Basics of NodeJS and NPM",
+                            "Grunt and Gulp"
+                        ],
+                        "href": "https://www.coursera.org/account/accomplishments/certificate/KXTZK3R876CX"
+                    },
+                    {
+                        "id": "533M8WXREJKX",
+                        "image": "React.png",
+                        "title": "Темы курса",
+                        "info": [
+                            "Javascript based front-end application development",
+                            "React library (Ver. 16.3)",
+                            "JavaScript ES6 for developing React application",
+                            "Use of Reactstrap for Bootstrap 4-based responsive UI design",
+                            "React components",
+                            "React Router",
+                            "Designing controlled forms",
+                            "Flux architecture and Redux. React-Redux powered applications",
+                            "Fetch for client-server communication and REST API on the server side",
+                            "React animation support and testing"
+                        ],
+                        "href": "https://www.coursera.org/account/accomplishments/certificate/533M8WXREJKX"
+                    },
+                    {
+                        "id": "LHVCX4DXYWEU",
+                        "image": "mobile.png",
+                        "title": "Темы курса",
+                        "info": [
+                            "Developing truly cross-platform, native iOS and Android apps using React Native (Ver 0.55) and the Expo SDK (Ver. 27.0.0)",
+                            "UI development with React Native UI and layout support and access the native mobile platform's capabilities from Javascript using the Expo SDK"
+                        ],
+                        "href": "https://www.coursera.org/account/accomplishments/certificate/LHVCX4DXYWEU"
+                    },
+                    {
+                        "id": "DSF5NGRH9D3V",
+                        "image": "server-side.png",
+                        "title": "Темы курса",
+                        "info": [
+                            "NodeJS and NodeJS modules: Express for building web servers",
+                            "Web protocols: HTTP and HTTPS",
+                            "CRUD operations, NoSQL databases",
+                            "MongoDB and Mongoose",
+                            "REST concepts, RESTful API",
+                            "Authentication and security",
+                            "Backend as a service (BaaS) approaches"
+                        ],
+                        "href": "https://www.coursera.org/account/accomplishments/certificate/DSF5NGRH9D3V"
+                    }
+                ]
+            },
+            {
+                "title": "Учебный центр Geekbrains",
+                "subtitle": "сертфикаты о прохождении курсов профессионального обучения по программе Frontend-разработчик",
+                "image": "GB.png",
+                "items": [
+                    {
+                        "id": "544786",
+                        "image": "probation.png",
+                        "title": "Темы курса",
+                        "info": [
+                            "Дистанционная разработка проекта в команде",
+                            "Методологии разработки",
+                            "Виды тестирования",
+                            "Подготовка резюме"
+                        ],
+                        "href": "https://geekbrains.ru/certificates/544786"
+                    },
+                    {
+                        "id": "443493",
+                        "image": "JS1.png",
+                        "title": "Темы курса",
+                        "info": [
+                            "Основы языка JavaScript",
+                            "Основные операторы JavaScript",
+                            "Циклы, массивы, структуры данных",
+                            "Объекты в JavaScript",
+                            "Введение в DOM",
+                            "Обработка событий в JavaScript",
+                            "Анонимные функции, замыкания"
+                        ],
+                        "href": "https://geekbrains.ru/certificates/443493"
+                    },
+                    {
+                        "id": "471909",
+                        "image": "JS2.png",
+                        "title": "Темы курса",
+                        "info": [
+                            "Современный JavaScript",
+                            "ООП в JavaScript",
+                            "Асинхронные запросы",
+                            "Регулярные выражения",
+                            "JavaScript на сервере",
+                            "Тестирование и сборка"
+                        ],
+                        "href": "https://geekbrains.ru/certificates/471909"
+                    },
+                    {
+                        "id": "515945",
+                        "image": "React.png",
+                        "title": "Темы курса",
+                        "info": [
+                            "Введение в ReactJS",
+                            "Жизненный цикл React-компонента",
+                            "Virtual DOM",
+                            "Стилизация React-компонентов",
+                            "Обработка событий",
+                            "Роутинг в React",
+                            "Redux",
+                            "Работа с API"
+                        ],
+                        "href": "https://geekbrains.ru/certificates/515945"
+                    },
+                    {
+                        "id": "408889",
+                        "image": "HTML:CSS.png",
+                        "title": "Темы курса",
+                        "info": [
+                            "Основные понятия в веб-разработке",
+                            "Основы языка разметки документов HTML",
+                            "Основы языка оформления стилей документа CSS",
+                            "Псевдоклассы и псевдоэлементы, табличная верстка",
+                            "Формирование блочной модели, блочная верстка",
+                            "Работа с макетом дизайна в формате PSD",
+                            "Разметка сайта, Bootstrap",
+                            "Стандарты web и вспомогательные инструменты"
+                        ],
+                        "href": "https://geekbrains.ru/certificates/408889"
+                    },
+                    {
+                        "id": "441550",
+                        "image": "HTML5:CSS3.png",
+                        "title": "Темы курса",
+                        "info": [
+                            "HTML5: Семантические элементы",
+                            "Позиционирование элементов, Практическая вёрстка",
+                            "HTML5 формы. Добавление Аудио и Видео на страницу. ",
+                            "Параметры CSS для фона. Использование SVG",
+                            "Работа с текстом. Границы в CSS3",
+                            "Эффекты перехода и трансформации CSS3",
+                            "Адаптивная вёрстка",
+                            "CSS3 Углубленное изучение.SASS. Flexbox"
+                        ],
+                        "href": "https://geekbrains.ru/certificates/441550"
+                    },
+                    {
+                        "id": "389807",
+                        "image": "bases.png",
+                        "title": "Темы курса",
+                        "info": [
+                            "Типы данных. Операции с разными типами данных. Преобразование типов данных",
+                            "Алгоритмическое мышление. Визуальные блок-схемы",
+                            "Выбор вариантов в программе. Оператор ветвления if",
+                            "Комплексные условия выбора. Логические И, ИЛИ. ",
+                            "Циклы do и while",
+                            "Цикл for",
+                            "Большие наборы данных и массивы",
+                            "Функции"
+                        ],
+                        "href": "https://geekbrains.ru/certificates/389807"
+                    },
+                    {
+                        "id": "394719",
+                        "image": "QuickStart.png",
+                        "title": "Темы курса",
+                        "info": [
+                            "Основы PHP",
+                            "Хранение и обработка связанных по смыслу данных",
+                            "Работа с циклами",
+                            "Практика"
+                        ],
+                        "href": "https://geekbrains.ru/certificates/394719"
+                    },
+                    {
+                        "id": "504597",
+                        "image": "BD.png",
+                        "title": "Темы курса",
+                        "info": [
+                            "Реляционные базы данных",
+                            "Установка СУБД",
+                            "Проектирование базы данных, нормальные формы",
+                            "SQL-команды",
+                            "Согласованность данных",
+                            "Внешний ключ, составной первичный ключ",
+                            "Создание таблиц с отношением “многие ко многим”, объединение данных из нескольких таблиц",
+                            "Операторы",
+                            "Агрегирующие функции",
+                            "Индексы",
+                            "Транзакции"
+                        ],
+                        "href": "https://geekbrains.ru/certificates/504597"
+                    },
+                    {
+                        "id": "483703",
+                        "image": "Git.png",
+                        "title": "Темы курса",
+                        "info": [
+                            "Введение в системы контроля версий",
+                            "Работа с командной строкой",
+                            "Локальная работа с Git-репозиторием",
+                            "Базовые операции",
+                            "История git-проекта",
+                            "Ветки",
+                            "Версионирование",
+                            "Слияние и переносы",
+                            "Gitflow",
+                            "Протокол SSH"
+                        ],
+                        "href": "https://geekbrains.ru/certificates/483703"
+                    },
+                    {
+                        "id": "692295",
+                        "image": "Figma.png",
+                        "title": "Темы курса",
+                        "info": [
+                            "Архитектура проекта",
+                            "Figma и ключевые возможности, обзор стартового окна",
+                            "Формы, тени, скругление, градиент",
+                            "Эффекты, режимы наложения слоев, прозрачность слоев",
+                            "Работа с текстом и компонентами",
+                            "Прототипирование; история версий; Dev HandOff"
+                        ],
+                        "href": "https://geekbrains.ru/certificates/692295"
+                    }
+                ]
+            },
+            {
+                "title": "Учебный центр Geekbrains",
+                "subtitle": "сертификаты успешных тестирований",
+                "image": "GB.png",
+                "items": [
+                    {
+                        "id": "483393",
+                        "image": "test_base.png",
+                        "title": "Темы тестирования",
+                        "info": [
+                            "Операторы и функции",
+                            "Базовые понятия",
+                            "Постановка задачи и алгоритмирование",
+                            "Основы программирования"
+                        ],
+                        "href": "https://geekbrains.ru/certificates/483393"
+                    },
+                    {
+                        "id": "446513",
+                        "image": "HTML:CSS_begin.png",
+                        "title": "Темы тестирования",
+                        "info": [
+                            "Теги и атрибуты html",
+                            "Формы html",
+                            "Работа с текстом и таблицами",
+                            "Основы html и css",
+                            "Селекторы css",
+                            "Работа с блоками"
+                        ],
+                        "href": "https://geekbrains.ru/certificates/446513"
+                    },
+                    {
+                        "id": "491889",
+                        "image": "HTML:CSS_middle.png",
+                        "title": "Темы тестирования",
+                        "info": [
+                            "Особенности html5",
+                            "Работа с изображениями",
+                            "Шрифты в html",
+                            "Особенности языка гипертекстовой разметки",
+                            "Псевдоклассы и псевдоэлементы",
+                            "Расположение элементов на странице",
+                            "Преимущества css",
+                            "Атрибуты тегов",
+                            "Адаптивная вёрстка",
+                            "Кроссбраузерность и валидность",
+                            "Методики сокращения кода"
+                        ],
+                        "href": "https://geekbrains.ru/certificates/491889"
+                    },
+                    {
+                        "id": "498620",
+                        "image": "HTML:CSS_hard.png",
+                        "title": "Темы тестирования",
+                        "info": [
+                            "Структура html5",
+                            "Препроцессоры",
+                            "Добавление аудио и видео на страницу bootstrap",
+                            "Адаптивная вёрстка",
+                            "Позиционирование элементов",
+                            "Работа с формами"
+                        ],
+                        "href": "https://geekbrains.ru/certificates/498620"
+                    },
+                    {
+                        "id": "484821",
+                        "image": "JS_begin.png",
+                        "title": "Темы куртестированияса",
+                        "info": [
+                            "Циклы",
+                            "Основы синтаксиса",
+                            "Функции и функциональные выражения",
+                            "Условные операторы",
+                            "Строки",
+                            "Стандартные операторы",
+                            "Переменные и типы данных",
+                            "Взаимодействие с пользователем",
+                            "Логические операторы",
+                            "Операторы сравнения",
+                            "Особенности javascript и организация кода",
+                            "Массивы",
+                            "ООП",
+                            "Dom селекторы jquery",
+                            "Знакомство с функциональными выражениями. принципы работы функций"
+                        ],
+                        "href": "https://geekbrains.ru/certificates/484821"
+                    },
+                    {
+                        "id": "510848",
+                        "image": "JS_hard.png",
+                        "title": "Темы тестирования",
+                        "info": [
+                            "Области видимости и замыкания",
+                            "Работа с dom",
+                            "Особенности работы с числами",
+                            "Особенности работы со строками",
+                            "Введение в объекты",
+                            "Работа с массивами",
+                            "Дата и время",
+                            "Объекты (методы контекст преобразование)",
+                            "Использование settimeout и setinterval",
+                            "Работа с событиями"
+                        ],
+                        "href": "https://geekbrains.ru/certificates/510848"
+                    },
+                    {
+                        "id": "446575",
+                        "image": "Eng_pre.png",
+                        "title": "Темы тестирования",
+                        "info": ["Grammar", "Vocabulary"],
+                        "href": "https://geekbrains.ru/certificates/446575"
+                    },
+                    {
+                        "id": "446583",
+                        "image": "Eng_inter.png",
+                        "title": "Темы тестирования",
+                        "info": ["Grammar", "Vocabulary"],
+                        "href": "https://geekbrains.ru/certificates/446583"
+                    },
+                    {
+                        "id": "447028",
+                        "image": "Eng_upper.png",
+                        "title": "Темы тестирования",
+                        "info": ["Grammar", "Vocabulary"],
+                        "href": "https://geekbrains.ru/certificates/447028"
+                    }
                 ]
             }
         ]
