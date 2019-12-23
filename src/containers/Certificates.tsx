@@ -5,7 +5,7 @@ import { GetCertificates } from '../store/actions';
 import { AppState } from '../store/store';
 import { CertificatesArray } from '../store/reducers/certificatesReducer';
 
-// import CertificatesItem from '../components/certificates/CertificatesItem';
+import CertificatesItem from '../components/certificates/CertificatesItem';
 
 // import styles from './Certificates.module.scss';
 
@@ -28,14 +28,12 @@ class Certificates extends React.Component<AllProps> {
     }
 
     render() {
-        console.log(this.props.data);
         return (
-            // <div className={styles.Container}>
-            //     {this.props.data.map((item, i) => (
-            //         <CertificatesItem key={i} item={item} />
-            //     ))}
-            // </div>
-            <div />
+            <div>
+                {this.props.data.online.map((item, i) => (
+                    <CertificatesItem key={i} item={item} />
+                ))}
+            </div>
         );
     }
 }

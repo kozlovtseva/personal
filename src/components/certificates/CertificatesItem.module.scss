@@ -1,0 +1,26 @@
+@import '../../variables.scss';
+
+.Header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Company {
+    align-items: center;
+    background-color: $secondary-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 310px;
+    max-width: 680px;
+    padding: 20px 30px;
+}
+.Logo {
+    border: 3px solid $secondary-color;
+}
+.Tytle {
+    @include rus-title;
+}
+.Subtitle {
+    @include rus-text;
+}
