@@ -4,6 +4,7 @@
     height: 106px;
     position: relative;
     z-index: 100;
+    // width: 202px;
 }
 .Button {
     @include rus-text;
@@ -19,14 +20,23 @@
     width: 202px;
     &_Yellow {
         background: $secondary-color;
+        top: 20px;
         &:hover {
             background: $secondary-dark-color;
+        }
+        &:active {
+            box-shadow: none;
+            top: 24px;
         }
     }
     &_Blue {
         background: $primary-color;
         &:hover {
             background: $secondary-color;
+        }
+        &:active {
+            box-shadow: none;
+            top: 4px;
         }
     }
     &_Small {
@@ -36,9 +46,5 @@
         line-height: 36px;
         right: 0;
         width: 130px;
-    }
-    &:active {
-        box-shadow: none;
-        top: 4px;
     }
 }
