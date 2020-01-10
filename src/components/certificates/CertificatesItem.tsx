@@ -5,7 +5,7 @@ import { Company } from '../../store/reducers/certificatesReducer';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 
-// import Button from '../UI/Button';
+import Button from '../UI/Button';
 
 import styles from './CertificatesItem.module.scss';
 
@@ -49,17 +49,15 @@ const CertificatesItem = (props: Props) => {
                                     </li>
                                 ))}
                             </ul>
+                            <Button
+                                classesNames="Button Button_Blue Button_Small"
+                                href={item.href}
+                                text="посмотреть"
+                            />
                         </div>
                     </div>
                 ))}
             </Carousel>
-            {/* <div className={styles.Button}>
-                    <Button
-                        classesNames="Button Button_Blue"
-                        href={props.item.href}
-                        text="посомотреть"
-                    />
-                </div> */}
         </div>
     );
 };

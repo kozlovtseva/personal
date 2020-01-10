@@ -10,7 +10,7 @@ const Footer: React.FC<{}> = () => {
             <Button
                 classesNames="Button Button_Yellow"
                 href="https://www.figma.com/"
-                text="посомотреть"
+                text="посмотреть"
             />
         </div>
     );

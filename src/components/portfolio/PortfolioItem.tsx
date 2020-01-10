@@ -34,7 +34,7 @@ const PortfolioItem = (props: Props) => {
                     <Button
                         classesNames="Button Button_Blue"
                         href={props.item.href}
-                        text="посомотреть"
+                        text="посмотреть"
                     />
                 </div>
 

@@ -38,7 +38,7 @@
 .Carousel {
     &__Item {
         background-color: #fff;
-        min-height: 600px;
+        min-height: 650px;
     }
     &__Details {
         @include rus-text;
@@ -50,6 +50,7 @@
         width: 100%;
     }
     &__Title {
+        font-weight: 400;
         margin-bottom: 10px;
     }
     &__Text {
@@ -57,5 +58,6 @@
     }
     &__List {
         list-style-type: circle;
+        margin-bottom: 10px;
     }
 }
