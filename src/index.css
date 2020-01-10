@@ -16,7 +16,40 @@ code {
 
 * {
     box-sizing: border-box;
+    outline-style: none;
     text-decoration: none;
     margin: 0;
     padding: 0;
+}
+
+/* react-responsive-carousel */
+.thumbs {
+    display: flex;
+    justify-content: center;
+}
+.carousel .control-dots {
+    bottom: -10px !important;
+}
+.dot {
+    background-color: #faefc4 !important;
+    opacity: 1 !important;
+}
+.dot.selected {
+    background-color: #b7e0df !important;
+}
+.dot:hover {
+    background-color: #b7e0df !important;
+    cursor: pointer;
+}
+.carousel .thumb.selected,
+.carousel .thumb:hover {
+    border: 3px solid #b7e0df !important;
+    cursor: pointer;
+}
+.carousel-slider {
+    margin: 0 auto !important;
+    max-width: 520px !important;
+}
+.slide {
+    background-color: #fff !important;
 }

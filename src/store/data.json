@@ -92,7 +92,7 @@
                 "items": [
                     {
                         "id": "C23KKBT2B3MC",
-                        "image": "FullStack.png",
+                        "image": "coursera_cert/FullStack.png",
                         "title": "Темы курса",
                         "info": [
                             "Front-end and hybrid mobile development, with server-side support, for implementing a multi-platform solution",
@@ -102,7 +102,7 @@
                     },
                     {
                         "id": "KXTZK3R876CX",
-                        "image": "Bootstrap.png",
+                        "image": "coursera_cert/Bootstrap.png",
                         "title": "Темы курса",
                         "info": [
                             "Client-side web UI frameworks, in particular Bootstrap 4",
@@ -116,15 +116,14 @@
                     },
                     {
                         "id": "533M8WXREJKX",
-                        "image": "React.png",
+                        "image": "coursera_cert/React.png",
                         "title": "Темы курса",
                         "info": [
                             "Javascript based front-end application development",
                             "React library (Ver. 16.3)",
                             "JavaScript ES6 for developing React application",
                             "Use of Reactstrap for Bootstrap 4-based responsive UI design",
-                            "React components",
-                            "React Router",
+                            "React Components. React Router",
                             "Designing controlled forms",
                             "Flux architecture and Redux. React-Redux powered applications",
                             "Fetch for client-server communication and REST API on the server side",
@@ -134,7 +133,7 @@
                     },
                     {
                         "id": "LHVCX4DXYWEU",
-                        "image": "mobile.png",
+                        "image": "coursera_cert/mobile.png",
                         "title": "Темы курса",
                         "info": [
                             "Developing truly cross-platform, native iOS and Android apps using React Native (Ver 0.55) and the Expo SDK (Ver. 27.0.0)",
@@ -144,7 +143,7 @@
                     },
                     {
                         "id": "DSF5NGRH9D3V",
-                        "image": "server-side.png",
+                        "image": "coursera_cert/server-side.png",
                         "title": "Темы курса",
                         "info": [
                             "NodeJS and NodeJS modules: Express for building web servers",
@@ -166,7 +165,7 @@
                 "items": [
                     {
                         "id": "544786",
-                        "image": "probation.png",
+                        "image": "GB/probation.png",
                         "title": "Темы курса",
                         "info": [
                             "Дистанционная разработка проекта в команде",
@@ -178,7 +177,7 @@
                     },
                     {
                         "id": "443493",
-                        "image": "JS1.png",
+                        "image": "GB/JS1.png",
                         "title": "Темы курса",
                         "info": [
                             "Основы языка JavaScript",
@@ -193,7 +192,7 @@
                     },
                     {
                         "id": "471909",
-                        "image": "JS2.png",
+                        "image": "GB/JS2.png",
                         "title": "Темы курса",
                         "info": [
                             "Современный JavaScript",
@@ -207,7 +206,7 @@
                     },
                     {
                         "id": "515945",
-                        "image": "React.png",
+                        "image": "GB/React.png",
                         "title": "Темы курса",
                         "info": [
                             "Введение в ReactJS",
@@ -223,7 +222,7 @@
                     },
                     {
                         "id": "408889",
-                        "image": "HTML:CSS.png",
+                        "image": "GB/HTML:CSS.png",
                         "title": "Темы курса",
                         "info": [
                             "Основные понятия в веб-разработке",
@@ -239,7 +238,7 @@
                     },
                     {
                         "id": "441550",
-                        "image": "HTML5:CSS3.png",
+                        "image": "GB/HTML5:CSS3.png",
                         "title": "Темы курса",
                         "info": [
                             "HTML5: Семантические элементы",
@@ -255,7 +254,7 @@
                     },
                     {
                         "id": "389807",
-                        "image": "bases.png",
+                        "image": "GB/bases.png",
                         "title": "Темы курса",
                         "info": [
                             "Типы данных. Операции с разными типами данных. Преобразование типов данных",
@@ -271,7 +270,7 @@
                     },
                     {
                         "id": "394719",
-                        "image": "QuickStart.png",
+                        "image": "GB/QuickStart.png",
                         "title": "Темы курса",
                         "info": [
                             "Основы PHP",
@@ -283,7 +282,7 @@
                     },
                     {
                         "id": "504597",
-                        "image": "BD.png",
+                        "image": "GB/BD.png",
                         "title": "Темы курса",
                         "info": [
                             "Реляционные базы данных",
@@ -295,14 +294,13 @@
                             "Создание таблиц с отношением “многие ко многим”, объединение данных из нескольких таблиц",
                             "Операторы",
                             "Агрегирующие функции",
-                            "Индексы",
-                            "Транзакции"
+                            "Индексы. Транзакции"
                         ],
                         "href": "https://geekbrains.ru/certificates/504597"
                     },
                     {
                         "id": "483703",
-                        "image": "Git.png",
+                        "image": "GB/Git.png",
                         "title": "Темы курса",
                         "info": [
                             "Введение в системы контроля версий",
@@ -320,7 +318,7 @@
                     },
                     {
                         "id": "692295",
-                        "image": "Figma.png",
+                        "image": "GB/Figma.png",
                         "title": "Темы курса",
                         "info": [
                             "Архитектура проекта",
@@ -341,7 +339,7 @@
                 "items": [
                     {
                         "id": "483393",
-                        "image": "test_base.png",
+                        "image": "tests/test_base.png",
                         "title": "Темы тестирования",
                         "info": [
                             "Операторы и функции",
@@ -353,7 +351,7 @@
                     },
                     {
                         "id": "446513",
-                        "image": "HTML:CSS_begin.png",
+                        "image": "tests/HTML:CSS_begin.png",
                         "title": "Темы тестирования",
                         "info": [
                             "Теги и атрибуты html",
@@ -367,7 +365,7 @@
                     },
                     {
                         "id": "491889",
-                        "image": "HTML:CSS_middle.png",
+                        "image": "tests/HTML:CSS_middle.png",
                         "title": "Темы тестирования",
                         "info": [
                             "Особенности html5",
@@ -386,7 +384,7 @@
                     },
                     {
                         "id": "498620",
-                        "image": "HTML:CSS_hard.png",
+                        "image": "tests/HTML:CSS_hard.png",
                         "title": "Темы тестирования",
                         "info": [
                             "Структура html5",
@@ -400,8 +398,8 @@
                     },
                     {
                         "id": "484821",
-                        "image": "JS_begin.png",
-                        "title": "Темы куртестированияса",
+                        "image": "tests/JS_begin.png",
+                        "title": "Темы тестирования",
                         "info": [
                             "Циклы",
                             "Основы синтаксиса",
@@ -423,7 +421,7 @@
                     },
                     {
                         "id": "510848",
-                        "image": "JS_hard.png",
+                        "image": "tests/JS_hard.png",
                         "title": "Темы тестирования",
                         "info": [
                             "Области видимости и замыкания",
@@ -441,21 +439,21 @@
                     },
                     {
                         "id": "446575",
-                        "image": "Eng_pre.png",
+                        "image": "tests/Eng_pre.png",
                         "title": "Темы тестирования",
                         "info": ["Grammar", "Vocabulary"],
                         "href": "https://geekbrains.ru/certificates/446575"
                     },
                     {
                         "id": "446583",
-                        "image": "Eng_inter.png",
+                        "image": "tests/Eng_inter.png",
                         "title": "Темы тестирования",
                         "info": ["Grammar", "Vocabulary"],
                         "href": "https://geekbrains.ru/certificates/446583"
                     },
                     {
                         "id": "447028",
-                        "image": "Eng_upper.png",
+                        "image": "tests/Eng_upper.png",
                         "title": "Темы тестирования",
                         "info": ["Grammar", "Vocabulary"],
                         "href": "https://geekbrains.ru/certificates/447028"

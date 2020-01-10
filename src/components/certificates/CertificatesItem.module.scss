@@ -1,26 +1,61 @@
 @import '../../variables.scss';
 
+.Container {
+    margin: 90px 0;
+}
 .Header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 20px;
 }
 .Company {
-    align-items: center;
     background-color: $secondary-color;
     display: flex;
     flex-direction: column;
     justify-content: center;
     min-width: 310px;
-    max-width: 680px;
+    max-width: 1100px;
     padding: 20px 30px;
+    width: 100%;
 }
 .Logo {
     border: 3px solid $secondary-color;
 }
+.Image {
+    max-width: 210px;
+    max-height: 210px;
+}
 .Tytle {
     @include rus-title;
+    line-height: 36px;
+    margin-bottom: 15px;
 }
 .Subtitle {
     @include rus-text;
+}
+
+.Carousel {
+    &__Item {
+        background-color: #fff;
+        min-height: 600px;
+    }
+    &__Details {
+        @include rus-text;
+        font-size: 14px;
+        font-weight: 300;
+        height: 30%;
+        padding: 18px;
+        position: absolute;
+        width: 100%;
+    }
+    &__Title {
+        margin-bottom: 10px;
+    }
+    &__Text {
+        text-align: left;
+    }
+    &__List {
+        list-style-type: circle;
+    }
 }

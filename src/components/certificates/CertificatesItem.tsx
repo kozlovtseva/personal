@@ -1,6 +1,10 @@
 import React from 'react';
 
 import { Company } from '../../store/reducers/certificatesReducer';
+
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import { Carousel } from 'react-responsive-carousel';
+
 // import Button from '../UI/Button';
 
 import styles from './CertificatesItem.module.scss';
@@ -25,6 +29,30 @@ const CertificatesItem = (props: Props) => {
                     <p className={styles.Subtitle}>{props.item.subtitle}</p>
                 </div>
             </div>
+
+            <Carousel showThumbs={true}>
+                {props.item.items.map((item, index) => (
+                    <div className={styles.Carousel__Item} key={index}>
+                        <img
+                            className={styles.Carousel__Image}
+                            src={require(`../../images/${item.image}`)}
+                            alt={item.title}
+                        />
+                        <div className={styles.Carousel__Details}>
+                            <div className={styles.Carousel__Title}>
+                                {item.title}
+                            </div>
+                            <ul className={styles.Carousel__List}>
+                                {item.info.map((text, i) => (
+                                    <li className={styles.Carousel__Text}>
+                                        {text}
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    </div>
+                ))}
+            </Carousel>
             {/* <div className={styles.Button}>
                     <Button
                         classesNames="Button Button_Blue"
