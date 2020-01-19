@@ -6,7 +6,7 @@ import Footer from './components/footer/Footer';
 import Vitae from './containers/Vitae';
 import Portfolio from './containers/Portfolio';
 import Certificates from './containers/Certificates';
-import Contacts from './components/Contacts';
+import Contacts from './components/contacts/Contacts';
 
 const Layout: React.FC = () => {
     return (
