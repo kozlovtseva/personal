@@ -1,13 +1,13 @@
 @import '../../variables.scss';
 
-.Container {
-    @include rus-text;
+.Wrapper {
+    @include rus-text-small;
     background-color: $primary-color;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     min-height: 266px;
     margin-top: 250px;
-    padding: 40px;
+    padding: 20px 40px;
     @media (max-width: 575.98px) {
         padding: 20px;
     }
@@ -18,7 +18,7 @@
     flex-wrap: wrap;
 }
 .Title {
-    @include rus-text;
+    @include rus-text-small;
     font-weight: 500;
     margin-bottom: 15px;
 }
@@ -27,14 +27,11 @@
     margin-left: 23px;
 }
 .Technologies {
-    margin-bottom: 15px;
+    margin-bottom: 40px;
 }
 .GitHub {
     align-items: center;
     align-self: flex-end;
     display: flex;
     flex-wrap: wrap;
-}
-.Button {
-    width: 202px;
 }

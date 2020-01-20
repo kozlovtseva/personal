@@ -1,10 +1,11 @@
 @import '../../variables.scss';
 
 .ButtonBlock {
+    float: right;
     height: 106px;
     position: relative;
     z-index: 100;
-    // width: 202px;
+    width: 202px;
 }
 .Button {
     @include rus-text;
@@ -20,13 +21,17 @@
     width: 202px;
     &_Yellow {
         background: $secondary-color;
-        top: 20px;
+        font-size: 16px;
+        height: 36px;
+        line-height: 36px;
+        top: 33px;
+        width: 130px;
         &:hover {
             background: $secondary-dark-color;
         }
         &:active {
             box-shadow: none;
-            top: 24px;
+            top: 37px;
         }
     }
     &_Blue {
@@ -45,13 +50,12 @@
         height: 36px;
         line-height: 36px;
         right: 0;
-        width: 130px;
+        width: 135px;
     }
     &_Tiny {
         font-size: 16px;
         height: 36px;
         line-height: 36px;
         width: 130px;
-        left: -95px;
     }
 }

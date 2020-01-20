@@ -4,7 +4,7 @@ $primary-transparent-color: rgba($base-color, 0.2);
 $secondary-color: #faefc4;
 $secondary-dark-color: #ffd9ad;
 $third-color: #f1f2ed;
-
+$light-text: #444;
 @mixin eng {
     font-family: 'Cutive Mono', monospace;
     letter-spacing: 0.05em;
@@ -35,4 +35,10 @@ $third-color: #f1f2ed;
 @mixin rus-text {
     @include rus;
     font-size: 22px;
+}
+
+@mixin rus-text-small {
+    @include rus;
+    color: $light-text;
+    font-size: 18px;
 }
