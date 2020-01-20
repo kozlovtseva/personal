@@ -39,10 +39,10 @@ class Header extends React.Component<{}, State> {
         ) : (
             <div className={styles.Background}>
                 <div
-                    onClick={() => toggleNavigation()}
                     className={styles.Burger}
+                    onClick={() => toggleNavigation()}
                 ></div>
-                <p>//coding mum</p>
+                <div className={styles.Title}>//coding mum</div>
             </div>
         );
         return (

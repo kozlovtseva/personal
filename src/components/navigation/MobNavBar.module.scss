@@ -6,8 +6,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 362px;
-    margin-bottom: 30px;
+    height: 393px;
+    padding-bottom: 30px;
 }
 .Cancel {
     align-self: flex-end;
@@ -18,7 +18,13 @@
             #000 15px,
             transparent 0
         ),
-        linear-gradient(-45deg, white 13px, #000 13px, #000 15px, transparent 0);
+        linear-gradient(
+            -45deg,
+            transparent 13px,
+            #000 13px,
+            #000 15px,
+            transparent 0
+        );
     height: 20px;
     margin: 30px 30px 0 0;
     width: 20px;

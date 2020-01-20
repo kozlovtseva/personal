@@ -9,18 +9,29 @@
 
 .Background {
     @include eng-title;
-    align-items: flex-end;
+    // align-items: flex-end;
     background-size: cover;
     background-image: url(../../images/back.jpg);
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    // display: flex;
+    // flex-direction: column;
+    // flex-wrap: wrap;
     height: 362px;
-    justify-content: flex-end;
+    // justify-content: flex-end;
     margin-bottom: 26px;
+    position: relative;
     padding: 35px;
     @media (max-width: 767.98px) {
         align-items: flex-start;
+    }
+}
+
+.Title {
+    bottom: 20px;
+    position: absolute;
+    right: 30px;
+    @media (max-width: 575.98px) {
+        left: 30px;
+        right: 0;
     }
 }
 
