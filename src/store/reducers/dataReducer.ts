@@ -9,9 +9,13 @@ export interface educationItem {
     probation: boolean;
     logo: string;
 }
+export interface skillsItem {
+    logo: string;
+    name: string;
+}
 
 export interface DataArray {
-    skills: string[];
+    skills: skillsItem[];
     education: educationItem[];
 }
 

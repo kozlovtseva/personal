@@ -1,21 +1,42 @@
 {
     "vitae": {
         "skills": [
-            "ReactJS",
-            "Redux",
-            "ReactNative",
-            "JavaScript",
-            "TypeScript",
-            "jQuery",
-            "CSS/CSS3",
-            "HTML/HTML5",
-            "Pug",
-            "SCSS",
-            "Bootstrap",
-            "Git",
-            "BEM",
-            "Figma",
-            "Scrum"
+            {
+                "logo": "react.png",
+                "name": "ReactJS"
+            },
+            {
+                "logo": "redux.png",
+                "name": "Redux"
+            },
+            {
+                "logo": "js.png",
+                "name": "JavaScript"
+            },
+            {
+                "logo": "ts.svg",
+                "name": "TypeScript"
+            },
+            {
+                "logo": "html5css3.png",
+                "name": "CSS3/HTML5"
+            },
+            {
+                "logo": "scss.png",
+                "name": "SCSS"
+            },
+            {
+                "logo": "bootstrap.png_large",
+                "name": "Bootstrap"
+            },
+            {
+                "logo": "git.jpg",
+                "name": "Git"
+            },
+            {
+                "logo": "figma.png",
+                "name": "Figma"
+            }
         ],
         "education": [
             {

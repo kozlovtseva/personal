@@ -33,7 +33,7 @@ class Vitae extends React.Component<Props> {
                     </div>
                     <div className={styles.Skills}>
                         {this.props.data.skills.map((item, i) => (
-                            <SkillsItem key={i} value={item} />
+                            <SkillsItem key={i} item={item} />
                         ))}
                     </div>
                 </div>
